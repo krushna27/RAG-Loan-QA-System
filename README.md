@@ -22,11 +22,12 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline for answ
 3. Download NLTK Data
 In your Python environment, run:
 
+ ```sh
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
-
+```
 
 4. Set Up ChromeDriver
 Download ChromeDriver and update the path in BankOfMaharashtraLoanScraper if needed.
@@ -42,10 +43,10 @@ Use the notebook Cleaning_Step2.ipynb to clean and lemmatize the scraped data, s
 
 7. Run the RAG QA Pipeline
 You can use either:
-
-# RAG_Pipeline_Step3.py for a command-line QA demo.
-app.py  for a Streamlit web interface.
-
+```sh
+python RAG_Pipeline_Step3.py # for a command-line QA demo.
+python app.py # for a Streamlit web interface.
+```
 
 # Architectural Decisions
 Libraries
