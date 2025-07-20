@@ -98,24 +98,17 @@ Balancing chunk size for semantic coherence vs. LLM/embedding limits required ex
 
 # Potential Improvements
 
-Automated Data Refresh:
-Schedule regular scraping to keep the knowledge base up-to-date.
+Add Multi-File or Multi-Format Document Support
 
-Advanced Chunking:
-Use semantic chunking (e.g., by section headings) instead of fixed-size chunks.
+Move to LangChain for Modularity & Ecosystem Integration:
 
-Multi-turn QA:
-Add conversational memory for follow-up questions.
+Use a Persistent Vector Store (e.g., Chroma or Pinecone)
 
-UI Enhancements:
-Improve the Streamlit interface with better context display and answer highlighting.
+Use semantic chunking (e.g., split by topic or paragraph).
 
-Model Upgrades:
-Experiment with larger Gemini models or hybrid retrieval (BM25 + dense).
+Use LangChain’s RecursiveCharacterTextSplitter which respects structure.
 
-Error Handling:
-More robust handling of scraping/embedding/LLM API failures.
-
+Using a local model for your RAG pipeline (instead of Gemini API) can greatly reduce costs, improve privacy, and allow offline functionality
 
 
 
