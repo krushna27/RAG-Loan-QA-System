@@ -34,7 +34,7 @@ Download ChromeDriver and update the path in BankOfMaharashtraLoanScraper if nee
 
 5. Run the Scraper
 Execute the scraper to generate the knowledge base:
-python Scraping_Step1.py
+streamlit run Scraping_Step1.py
 
 This will create scraped_data_mahaloan2.txt.
 
