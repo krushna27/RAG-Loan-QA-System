@@ -45,7 +45,7 @@ Use the notebook Cleaning_Step2.ipynb to clean and lemmatize the scraped data, s
 You can use either:
 ```sh
 python RAG_Pipeline_Step3.py # for a command-line QA demo.
-python app.py # for a Streamlit web interface.
+streamlit run app.py # for a Streamlit web interface.
 ```
 
 # Architectural Decisions
