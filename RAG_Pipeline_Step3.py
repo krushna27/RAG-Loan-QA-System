@@ -134,7 +134,7 @@ def rag_pipeline(question, file_path, api_key):
 # === Step 8: Run ===
 if __name__ == "__main__":
     file_path = "cleaned_data1.txt"
-    api_key = "AIzaSyBhq6qGeBhGpYdE1kNeXE7wGZj2Sz4S30A"
+    api_key = " "
     question = input("Ask your question: ").strip()
 
     if not os.path.exists(file_path):
