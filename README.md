@@ -50,14 +50,9 @@ app.py  for a Streamlit web interface.
 # Architectural Decisions
 Libraries
 
-1. Scraping:
+1. Scraping: selenium for robust browser automation and scraping dynamic content. BeautifulSoup for HTML parsing and text extraction.
 
-selenium for robust browser automation and scraping dynamic content.
-BeautifulSoup for HTML parsing and text extraction.
-
-2. Data Processing:
-nltk for sentence tokenization, stopword removal, and lemmatization.
-re for regex-based cleaning.
+2. Data Processing: nltk for sentence tokenization, stopword removal, and lemmatization. re for regex-based cleaning.
 
 3. RAG Pipeline:
 faiss for fast vector similarity search.
@@ -69,8 +64,7 @@ streamlit for the interactive web UI.
 Selenium and BeautifulSoup together handle both static and dynamic web content. NLTK is reliable for text processing. FAISS is industry-standard for vector search. Google's Gemini API provides state-of-the-art embeddings and LLM capabilities.
 
 # Data Strategy
-Chunking:
-Text is split into ~1000-character chunks with ~200-character overlap using sentence boundaries.
+Chunking: Text is split into ~1000-character chunks with ~200-character overlap using sentence boundaries.
 
 # Why?
 Maintains semantic context across sentences.
@@ -87,9 +81,6 @@ Keeps chunks within token limits for embedding and LLM use.
 1. Google Gemini API: For both embeddings and LLM-based answer generation.
 2. FAISS: For scalable, efficient nearest-neighbor search.
 3. NLTK: For robust text preprocessing.
-
-
-
 
 # Challenges Faced
 
