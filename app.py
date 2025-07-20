@@ -11,7 +11,7 @@ nltk.download("punkt")
 from nltk.tokenize import sent_tokenize
 
 # --- Gemini API Key ---
-GEMINI_API_KEY = "AIzaSyBhq6qGeBhGpYdE1kNeXE7wGZj2Sz4S30A"  # Replace with your real key
+GEMINI_API_KEY = " "  # Replace with your real key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # === Load and Clean Text ===
